@@ -1,3 +1,24 @@
+.reputation_table {
+    @media(max-width: 600px) {
+        overflow-y: auto;
+        & table {
+            width: 600px;
+        }
+    }
+}
+.full_name{
+    position: relative;
+
+    &__inner{
+        position: absolute;
+        top: 3px;
+        left: 2px;
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+
 .tg_cly1 {
     position: relative;
     height: 40px;
@@ -12,7 +33,7 @@
     height: 100%;
     background-image: linear-gradient(90deg, #ffffff0c 0px, #f760eac2 40px, #ffffff0c 80px);
     background-size: 600px;
-    animation: shine-lines is infinite ease-out;
+    animation: shine-lines 1s infinite ease-out;
 }
 
 @keyframes shine-lines {

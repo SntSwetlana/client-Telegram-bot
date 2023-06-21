@@ -1,7 +1,7 @@
 export interface IReputation {
     username: string
     reputation: number
-    fullName: string 
+    fullname: string 
     userAvatar: string
     telegramId: string
 }
