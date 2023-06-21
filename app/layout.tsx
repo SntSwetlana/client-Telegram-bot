@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 
-export const metadat = {
+export const metadata = {
   title: 'Custom reputation'
 }
 
